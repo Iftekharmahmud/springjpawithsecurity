@@ -8,7 +8,7 @@ public class User {
 
     @Id
     @Column(name = "id")
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
   /*  @SequenceGenerator(
             name = "hibernate_sequence",
             sequenceName ="hibernate_sequence",
