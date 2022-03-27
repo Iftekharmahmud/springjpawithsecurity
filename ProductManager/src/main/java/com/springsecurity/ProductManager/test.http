@@ -1,0 +1,9 @@
+POST http://localhost:9100/api/v1/user
+Content-Type: application/json
+
+{
+  "username":"Fahad",
+  "role":"ROLE_USER",
+  "enabled":"1",
+  "password": "2345"
+}
